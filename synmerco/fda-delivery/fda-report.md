@@ -35,9 +35,8 @@ Raw count returned by the source: 25 documents.
 - 2026-19658 | Filing of Color Additive Petition From Doehler GmbH; Request To Amend the Color Additive Regulations To Provide for the Safe Use of Calcium Sulfate in Various Foods at Levels Consistent With Good Manufacturing Practice | published 2026-09-25 | comments close — | docket(s): Docket No. FDA-2026-C-10597 | days to close: —
 
 ## PROOF
-Request: GET https://www.federalregister.gov/api/v1/documents.json?conditions[agencies][]=food-and-drug-administration&conditions[type][]=PRORULE&conditions[publication_date][gte]=2026-05-01&fields[]=document_number&fields[]=title&fields[]=publication_date&fields[]=comments_close_on&fields[]=docket_ids&per_page=100&page=1
-UTC time: 2026-11-18 23:57:00 UTC
-HTTP status: 200
+GET https://www.federalregister.gov/api/v1/documents.json?conditions[agencies][]=food-and-drug-administration&conditions[type][]=PRORULE&conditions[publication_date][gte]=2026-05-01&fields[]=document_number&fields[]=title&fields[]=publication_date&fields[]=comments_close_on&fields[]=docket_ids&per_page=100&page=1 | 2026-11-18 23:57:00 UTC | HTTP 200
 Date: Wed, 18 Nov 2026 23:57:00 GMT
+Excerpt from the page=1 response body: `"count":25,"total_pages":1`
 
 Companion data file: fda-proposed.csv — one row per document returned (25 rows), sorted by publication_date then document_number.
